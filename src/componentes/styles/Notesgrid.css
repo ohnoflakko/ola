@@ -1,0 +1,17 @@
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .notes-grid {
+    flex-direction: row;
+    justify-content: center; 
+  }
+}
